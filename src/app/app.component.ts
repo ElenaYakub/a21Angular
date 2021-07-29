@@ -10,8 +10,7 @@ export class AppComponent {
   title = 'hello angular';
 
 
-  constructor(private userService: UserService) {
-    this.userService.doSomeStuff();
+  constructor() {
   }
 }
 
