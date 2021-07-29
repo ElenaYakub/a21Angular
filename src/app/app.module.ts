@@ -8,12 +8,11 @@ import { UserComponent } from './user/user.component';
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
-    UserComponent
   ],
   imports: [
     BrowserModule
-  ],
+  ]
+  ,
   providers: [],
   bootstrap: [AppComponent]
 })
